@@ -66,7 +66,7 @@ namespace Ping_Log
             }
             msg.Items.Add(message);
             msg.SelectedIndex = msg.Items.Count - 1;
-            WriteLog(message);
+            WriteLog(message); 
 
         }
         private void WriteLog(string msg)
